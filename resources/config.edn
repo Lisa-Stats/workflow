@@ -1,0 +1,6 @@
+{:workflow.main/service {:port 8890}}
+;; when start server, pulling info down from this static config file
+;; and using that info to start it
+;; instead of hard coding it in our function in main
+;; created a service keyword inside of main, so it knows what it is using,
+;; we use that to point it to this config.edn where the info is
